@@ -69,7 +69,7 @@ RCT_EXPORT_MODULE();
 }
 
 - (void)startProgressTimer {
-  _progressUpdateInterval = 250;
+  _progressUpdateInterval = 75;
   //_prevProgressUpdateTime = nil;
 
   [self stopProgressTimer];
